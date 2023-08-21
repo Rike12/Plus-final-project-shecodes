@@ -1,5 +1,6 @@
 body {
     font-family: arial, sans-serif;
+    
   }
   
   h1 {
@@ -19,11 +20,10 @@ body {
     list-style: none;
     margin: 0;
     padding: 0;
-  
-    color: rgb(135, 135, 135);
-    font-size: 16px;
-    font-weight: 100;
-    line-height: 19px;
+    color: rgb(5, 4, 4);
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 15px;
   }
   
   li:first-letter {
@@ -31,18 +31,25 @@ body {
   }
   
   .weather_wrapper {
-    max-width: 600px;
+    max-width: 80%;
+    height: 600px;
     margin: 30px auto;
+    background-image: url(./images/forecast.jpg);
+    background-size: cover;
+    background-position:center;
+    background-color: rgb(71, 136, 206);
+    background-repeat: repeat;
+    
   }
   
   .weathe_app {
     padding: 20px;
-    border: 1px solid #dadde1;
-    border-radius: 5px;
+    
   }
   
   .overview {
     margin-bottom: 20px;
+    margin-left: 30px;
   }
   
   .weather-temperature img {
@@ -90,4 +97,16 @@ body {
   
   .weather-forecast-temperatures {
     font-size: 13px;
+  }
+  #city-input{
+    background-color: rgb(0, 0, 0);
+    color: whitesmoke;
+  }
+
+  .overview #city{
+    color: black;
+  }
+
+  .overview #description{
+    margin-top: 20px;
   }
