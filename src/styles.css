@@ -1,15 +1,8 @@
 body {
     font-family: arial, sans-serif;
-    
+    position: relative;
   }
   
-  h1 {
-    color: #878787;
-    font-size: 24px;
-    font-weight: 100;
-    line-height: 28px;
-    margin-bottom: 0;
-  }
   
   ul {
     margin: 0;
@@ -19,6 +12,7 @@ body {
   .col-3{
     font-size: 30px;
     padding: 15px;
+    
   
     
     
@@ -43,6 +37,7 @@ body {
     height: 600px;
     margin: 30px auto;
     background-image: url(./images/weather3.jpg);
+    border-radius: 20px;
     background-size: cover;
     background-position:center;
     background-repeat: repeat;
@@ -91,7 +86,7 @@ body {
   }
   
   .weather-temperature .active {
-    color: rgb(33, 33, 33);
+    color: rgb(0, 0, 0);
     cursor: default;
   }
   
@@ -102,7 +97,7 @@ body {
   .weather-forecast {
     margin-top: 60px;
     text-align: center;
-    color: #1b1b1b;
+    color: #000000;
    
   }
   
@@ -115,10 +110,13 @@ body {
   
   .weather-forecast-temperature-min {
     opacity: 0.5;
+    font-size: 15px;
   }
   
   .weather-forecast-temperatures {
-    font-size: 13px;
+    font-size: 20px;
+    font-weight: 900;
+    color:rgb(0, 0, 0);
   }
   #city-input{
     background-color: rgb(144, 60, 60);
@@ -132,10 +130,11 @@ body {
   }
 
   .overview #description{
-    margin-top: 20px;
+    margin-top: 30px;
   }
 
-  .small{
+  a{
     text-align: start;
+    font-size: 30px;
     padding-left: 190px;
   }
